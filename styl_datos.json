@@ -7,7 +7,7 @@
       "contrasena": "123456",
       "tipo": "profesional",
       "telefono": "612345678",
-      "direccion": "Calle Gran Vía 10, Madrid",
+      "direccion": "Plaza Circular 3, Murcia",
       "imagenPerfil": "person.circle.fill"
     },
     {
@@ -25,182 +25,77 @@
     {
       "id": 1,
       "nombre": "Corte de cabello",
-      "descripcion": "Corte personalizado adaptado a tu tipo de rostro y estilo. Incluye lavado, corte con tijera o máquina y secado final. Nuestros estilistas te asesorarán para encontrar el look perfecto.",
+      "descripcion": "Corte personalizado adaptado a tu tipo de rostro y estilo.\nIncluye lavado, corte con tijera o máquina y secado final.\nNuestros estilistas te asesorarán para encontrar el look perfecto.",
       "duracionMinutos": 45,
       "precio": 25.0,
       "imagen": "scissors",
       "activo": true,
       "categoria": "Corte",
-      "ubicacion": { "latitud": 40.4168, "longitud": -3.7038 },
-      "urlWeb": "https://styl.example.com/corte"
+      "ubicacion": {
+        "latitud": 37.9886,
+        "longitud": -1.1312
+      },
+      "urlWeb": "https://example.com/servicios/corte"
     },
     {
       "id": 2,
       "nombre": "Afeitado clásico",
-      "descripcion": "Afeitado tradicional con navaja y brocha de jabón artesanal. Incluye toalla caliente, aceite pre-afeitado y bálsamo aftershave. Una experiencia de barbería clásica para un acabado perfecto.",
+      "descripcion": "Afeitado tradicional con navaja y brocha de jabón artesanal.\nIncluye toalla caliente, aceite pre-afeitado y bálsamo aftershave.\nUna experiencia de barbería clásica para un acabado perfecto.",
       "duracionMinutos": 30,
       "precio": 20.0,
       "imagen": "scissors",
       "activo": true,
       "categoria": "Barba",
-      "ubicacion": null,
-      "urlWeb": null
+      "ubicacion": {
+        "latitud": 37.9886,
+        "longitud": -1.1312
+      },
+      "urlWeb": "https://example.com/servicios/afeitado"
     },
     {
       "id": 3,
-      "nombre": "Tinte completo",
-      "descripcion": "Coloración profesional con productos de alta gama sin amoniaco. Disponible en tinte completo, mechas o degradado según preferencia. Incluye tratamiento hidratante posterior para proteger el cabello.",
+      "nombre": "Tinte de cabello",
+      "descripcion": "Coloración profesional con productos de alta gama sin amoniaco.\nDisponible en tinte completo, mechas o degradado según preferencia.\nIncluye tratamiento hidratante posterior para proteger el cabello.",
       "duracionMinutos": 60,
       "precio": 40.0,
       "imagen": "scissors",
       "activo": true,
       "categoria": "Tinte",
-      "ubicacion": null,
-      "urlWeb": null
+      "ubicacion": {
+        "latitud": 37.9886,
+        "longitud": -1.1312
+      },
+      "urlWeb": "https://example.com/servicios/tinte"
     },
     {
       "id": 4,
       "nombre": "Manicura express",
-      "descripcion": "Tratamiento completo de uñas que incluye limado, cutículas, hidratación y esmaltado. Disponible en acabado natural, brillo o color. Ideal para mantener tus manos siempre cuidadas.",
+      "descripcion": "Cuidado completo de manos con lima, cutículas y esmalte a elegir.\nUtilizamos esmaltes de larga duración libres de tóxicos.\nFinaliza con masaje de manos y crema nutritiva hidratante.",
       "duracionMinutos": 45,
       "precio": 18.0,
       "imagen": "scissors",
       "activo": true,
       "categoria": "Manicura",
-      "ubicacion": null,
-      "urlWeb": null
+      "ubicacion": {
+        "latitud": 37.9886,
+        "longitud": -1.1312
+      },
+      "urlWeb": "https://example.com/servicios/manicura"
     },
     {
       "id": 5,
       "nombre": "Tratamiento capilar",
-      "descripcion": "Tratamiento reparador intensivo para cabellos dañados o debilitados. Utiliza queratina y aceites naturales para devolver brillo, suavidad y fuerza al cabello. Resultados visibles desde la primera sesión.",
+      "descripcion": "Tratamiento intensivo de keratina o nutrición profunda para el cabello.\nRecupera el brillo, la suavidad y reduce el frizz de forma duradera.\nRecomendado para cabellos dañados por calor o procesos químicos.",
       "duracionMinutos": 60,
       "precio": 35.0,
       "imagen": "scissors",
       "activo": true,
       "categoria": "Tratamiento",
-      "ubicacion": null,
-      "urlWeb": null
-    },
-    {
-      "id": 6,
-      "nombre": "Corte infantil",
-      "descripcion": "Corte de cabello especial para niños de 3 a 12 años. Ambiente divertido y relajado para que los más pequeños disfruten de la experiencia. Incluye lavado y peinado.",
-      "duracionMinutos": 30,
-      "precio": 15.0,
-      "imagen": "scissors",
-      "activo": true,
-      "categoria": "Corte",
-      "ubicacion": null,
-      "urlWeb": null
-    },
-    {
-      "id": 7,
-      "nombre": "Mechas balayage",
-      "descripcion": "Técnica de coloración a mano alzada que crea un efecto degradado natural de raíz a puntas. Resultado luminoso y moderno con un mantenimiento mínimo. Consulta de color incluida.",
-      "duracionMinutos": 90,
-      "precio": 65.0,
-      "imagen": "scissors",
-      "activo": true,
-      "categoria": "Tinte",
-      "ubicacion": null,
-      "urlWeb": null
-    },
-    {
-      "id": 8,
-      "nombre": "Arreglo de barba",
-      "descripcion": "Perfilado y recorte de barba con máquina y tijera para mantener la forma deseada. Incluye aplicación de aceite hidratante para barba. Servicio rápido ideal para mantenimiento semanal.",
-      "duracionMinutos": 20,
-      "precio": 12.0,
-      "imagen": "scissors",
-      "activo": true,
-      "categoria": "Barba",
-      "ubicacion": null,
-      "urlWeb": null
-    },
-    {
-      "id": 9,
-      "nombre": "Pedicura completa",
-      "descripcion": "Cuidado integral de los pies que incluye baño relajante, exfoliación, tratamiento de callosidades, corte y esmaltado de uñas. Finaliza con un masaje hidratante.",
-      "duracionMinutos": 60,
-      "precio": 25.0,
-      "imagen": "scissors",
-      "activo": true,
-      "categoria": "Manicura",
-      "ubicacion": null,
-      "urlWeb": null
-    },
-    {
-      "id": 10,
-      "nombre": "Alisado keratina",
-      "descripcion": "Tratamiento de alisado con keratina brasileña que elimina el encrespamiento y aporta brillo intenso. Duración del efecto de 3 a 5 meses. Apto para todo tipo de cabello.",
-      "duracionMinutos": 120,
-      "precio": 80.0,
-      "imagen": "scissors",
-      "activo": true,
-      "categoria": "Tratamiento",
-      "ubicacion": null,
-      "urlWeb": null
-    },
-    {
-      "id": 11,
-      "nombre": "Corte degradado fade",
-      "descripcion": "Corte moderno con degradado lateral y posterior. Incluye perfilado de contornos con navaja y diseño de líneas según preferencia. El estilo urbano más demandado.",
-      "duracionMinutos": 40,
-      "precio": 22.0,
-      "imagen": "scissors",
-      "activo": true,
-      "categoria": "Corte",
-      "ubicacion": null,
-      "urlWeb": null
-    },
-    {
-      "id": 12,
-      "nombre": "Tinte de barba",
-      "descripcion": "Coloración específica para barba que cubre canas y unifica el tono. Producto hipoalergénico de rápida acción. Resultado natural que dura entre 4 y 6 semanas.",
-      "duracionMinutos": 25,
-      "precio": 18.0,
-      "imagen": "scissors",
-      "activo": true,
-      "categoria": "Tinte",
-      "ubicacion": null,
-      "urlWeb": null
-    },
-    {
-      "id": 13,
-      "nombre": "Mascarilla nutritiva",
-      "descripcion": "Tratamiento profundo con mascarilla de aceite de argán y vitamina E. Ideal para cabello seco o con puntas abiertas. Aporta hidratación intensa y facilita el peinado diario.",
-      "duracionMinutos": 30,
-      "precio": 20.0,
-      "imagen": "scissors",
-      "activo": true,
-      "categoria": "Tratamiento",
-      "ubicacion": null,
-      "urlWeb": null
-    },
-    {
-      "id": 14,
-      "nombre": "Manicura con gel",
-      "descripcion": "Esmaltado semipermanente con lámpara UV que garantiza un acabado brillante y duradero hasta 3 semanas. Amplia carta de colores disponibles. Incluye preparación completa de uñas.",
-      "duracionMinutos": 60,
-      "precio": 28.0,
-      "imagen": "scissors",
-      "activo": true,
-      "categoria": "Manicura",
-      "ubicacion": null,
-      "urlWeb": null
-    },
-    {
-      "id": 15,
-      "nombre": "Pack novio",
-      "descripcion": "Servicio completo para el día especial: corte de cabello, arreglo de barba, tratamiento facial exprés y manicura básica. Incluye copa de bienvenida. Reservar con al menos 48h de antelación.",
-      "duracionMinutos": 120,
-      "precio": 75.0,
-      "imagen": "scissors",
-      "activo": true,
-      "categoria": "Corte",
-      "ubicacion": { "latitud": 40.4168, "longitud": -3.7038 },
-      "urlWeb": "https://styl.example.com/pack-novio"
+      "ubicacion": {
+        "latitud": 37.9886,
+        "longitud": -1.1312
+      },
+      "urlWeb": "https://example.com/servicios/tratamiento"
     }
   ]
 }
